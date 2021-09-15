@@ -1,7 +1,7 @@
-pontos = 4
-gols = 30
-contras = 1
-partidas = 4
+pontos = 0
+gols = 0
+contras = 0
+partidas = 0
 class Time():
     def mediagols(gols, partidas):
         x = gols / partidas
