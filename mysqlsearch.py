@@ -1,6 +1,6 @@
 import MySQLdb 
 
-con = MySQLdb.connect(host='localhost', user='root', passwd='dani112722', db = 'exercpython')
+con = MySQLdb.connect(host='localhost', user='root', passwd='', db = 'exercpython')
 
 db_info = con.get_server_info()
 print("Conectado com sucesso", db_info)
